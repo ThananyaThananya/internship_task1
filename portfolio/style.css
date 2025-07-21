@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8ee;
+  color: #111;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about, .projects {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.projects .project {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.projects img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+/* Animation classes (initial state) */
+.fade-in, .slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+}
